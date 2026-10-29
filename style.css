@@ -1,0 +1,85 @@
+body{
+    color: #090B18;
+    background: #b5a1ff;
+    background: radial-gradient(circle, rgba(181, 161, 255, 1) 69%, rgba(189, 242, 224, 1) 99%);
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: start;
+    display: block;
+}
+h1{
+    margin: 30px;
+    padding: 8px;
+  
+}
+
+.wrap{
+    background-color: #090B18;
+    margin: 70px;
+    padding: 50px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.wrap input{
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    display: flex;
+    flex-direction:column;
+    align-items: end;
+    justify-content: end;
+    background-color:#CFE7FF;
+    
+}
+.wrap label{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    text-align: center;
+    color: #6366FF;
+    line-height: 1.5;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+#botoes button img{
+    width: 20px;
+    height:17px;
+    object-fit: contain;
+  
+}
+#botoes button{
+    background-color:#B6B9FE #6366FF;
+    font-size: large;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #370e6f;
+   
+}
+
+
+.logo-card{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    max-width: 350px;  
+}
+
+.logo-img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+@media (max-width: 768px) {
+    .logo-card {
+        flex-direction: column;
+        text-align: center;
+    }
+}
